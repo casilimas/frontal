@@ -25,7 +25,7 @@ function CrearCliente() {
     // Aquí añadimos lógica para enviar estos datos a tu API
     try {
       // Realiza una solicitud POST para crear un nuevo cliente
-      const response = await axios.post('http:relacional-production.up.railway.app', cliente);
+      const response = await axios.post('http://relacional-production.up.railway.app', cliente);
       console.log('Cliente creado:', response.data);
       alert('Cliente creado con éxito!');
       // Limpia el formulario después de la operación exitosa
